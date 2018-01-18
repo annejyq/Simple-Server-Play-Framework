@@ -1,0 +1,14 @@
+@(res : ArrayList[String])
+
+<html>
+  <head>
+      <title> Upload Result </title>
+  </head>
+  <body>
+      <h1>Upload Result</h1>
+      @for(str <- res){
+        <p>@str</p>
+      }
+      <a href="/" class="button">Return</a>
+  </body>
+</html>

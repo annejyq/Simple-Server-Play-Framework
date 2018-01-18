@@ -1,0 +1,41 @@
+@(contacts : List[Contact])
+@import helper._
+
+<html>
+  <head>
+      <title> All Contacts </title>
+  </head>
+  <body>
+      <h1>All Contacts</h1>
+      <div class="row">
+          <form action="/create">
+              <input type="submit" value="Add New Contact" />
+          </form>
+      </div>
+      <div class="row">
+          <p>Upload Local File</p>
+
+          @helper.form(action = routes.HomeController.ReadLocalFile, 'enctype -> "multipart/form-data") {
+
+          <input type="file" name="csvfile">
+
+          <p>
+              <input type="Submit">
+          </p>
+
+          }
+
+      </div>
+
+      @for(contact <- contacts){
+        <p>ID: @contact.id</p>
+        <p>@contact.name</p>
+        <p>Address: @contact.address</p>
+        <p>Zipcode: @contact.zipcode</p>
+        <p>Phone Number: @contact.number</p>
+        <p>Color: @contact.color</p>
+        <br>
+      }
+  </body>
+
+</html>

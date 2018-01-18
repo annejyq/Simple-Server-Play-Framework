@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yunqingjiang/Desktop/Max2App/conf/logback.xml,/Users/yunqingjiang/Desktop/Max2App/target/scala-2.12/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yunqingjiang/Desktop/Max2App/conf/application.conf,/Users/yunqingjiang/Desktop/Max2App/target/scala-2.12/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yunqingjiang/Desktop/Max2App/conf/evolutions,/Users/yunqingjiang/Desktop/Max2App/target/scala-2.12/classes/evolutions)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yunqingjiang/Desktop/Max2App/conf/routes,/Users/yunqingjiang/Desktop/Max2App/target/scala-2.12/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yunqingjiang/Desktop/Max2App/conf/evolutions/default,/Users/yunqingjiang/Desktop/Max2App/target/scala-2.12/classes/evolutions/default)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/yunqingjiang/Desktop/Max2App/conf/evolutions/default/1.sql,/Users/yunqingjiang/Desktop/Max2App/target/scala-2.12/classes/evolutions/default/1.sql)[0m

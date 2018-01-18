@@ -1,0 +1,24 @@
+@(contactForm : Form[Contact])
+@import helper._
+
+<html>
+  <head>
+      <title> Create Contact </title>
+  </head>
+  <body>
+      <h1>Create Contact</h1>
+        @helper.form(action=routes.HomeController.save()) {
+            @helper.inputText(contactForm("name"))
+            @helper.inputText(contactForm("address"))
+            @helper.inputText(contactForm("zipcode"))
+            @helper.inputText(contactForm("number"))
+            @helper.inputText(contactForm("color"))
+            <input type="submit" value="Create Contact">
+        }
+      <form action="/">
+          <input type="submit" value="Return" />
+      </form>
+
+
+  </body>
+</html>
