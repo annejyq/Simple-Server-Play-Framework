@@ -207,7 +207,8 @@ public class HomeController extends Controller {
         String fileName = CSVfile.getFilename();
 
         File infile = CSVfile.getFile();
-        String localpath = "/Users/yunqingjiang/desktop/upload/";
+        String localpath = "/home/ubuntu/upload/";
+        //String localpath = "/Users/yunqingjiang/desktop/upload/";
         File outfile = new File(localpath + fileName);
         if(! outfile.createNewFile()) return ok(error.render("Missing File"));
         InputStream is = null;
